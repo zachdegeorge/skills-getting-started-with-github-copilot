@@ -81,9 +81,9 @@ section h3 {
 }
 
 .participants-list {
-  list-style: none;
+  list-style: disc;
   margin-top: 8px;
-  padding-left: 0;
+  padding-left: 22px;
 }
 
 .participants-list li {
@@ -97,6 +97,12 @@ section h3 {
   color: #1a237e;
   border-radius: 4px;
   font-size: 14px;
+  padding-left: 8px;
+}
+
+.participants-list li::marker {
+  color: #3949ab;
+  font-size: 12px;
 }
 
 .participant-email {
